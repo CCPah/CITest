@@ -67,6 +67,6 @@
 	</build>
 	<modules>
 		<module>../</module>
-		<module>../../CiTestTest</module>
+		<module>../CiTestTest</module>
 	</modules>
 </project>
