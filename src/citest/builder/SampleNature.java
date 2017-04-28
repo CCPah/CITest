@@ -17,6 +17,7 @@ public class SampleNature implements IProjectNature {
 
 	@Override
 	public void configure() throws CoreException {
+		String anotherTest = "some other test";
 		IProjectDescription desc = project.getDescription();
 		ICommand[] commands = desc.getBuildSpec();
 
