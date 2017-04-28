@@ -26,6 +26,7 @@ public class SampleBuilder extends IncrementalProjectBuilder {
 		@Override
 		public boolean visit(IResourceDelta delta) throws CoreException {
 			IResource resource = delta.getResource();
+			String testString = "just a test for sourcetree"
 			switch (delta.getKind()) {
 			case IResourceDelta.ADDED:
 				// handle added resource
