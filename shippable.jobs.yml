@@ -7,6 +7,5 @@ jobs:
   - name: CITest_runCI      # required
     type: runCI             # required
     steps:                  # required
-      - IN: CITest_ciRepo   # at least one IN or OUT required
       - IN: nightly-trigger
       - OUT: CITest_image
