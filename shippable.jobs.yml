@@ -8,4 +8,3 @@ jobs:
     type: runCI             # required
     steps:                  # required
       - IN: nightly-trigger
-      - OUT: CITest_image

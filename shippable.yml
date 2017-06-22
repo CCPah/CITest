@@ -3,17 +3,10 @@ language: java
 jdk:
   - oraclejdk8
   
-resources:
-  - name: nightly-trigger
-    type: time
-    seed:
-      interval: "1 0 * * *"
-  
 build:
   ci:
    - mkdir -p shippable/testresults
    - mkdir -p shippable/codecoverage
-   - echo "versionName=$BRANCH.$BUILD_NUMBER" >> $JOB_STATE/my_image.env
 
   
    - cd mvn-parent
