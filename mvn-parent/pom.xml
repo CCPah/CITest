@@ -61,6 +61,7 @@
 							<arch>x86_64</arch>
 						</environment>
 					</environments>
+					<reportsDirectory>${project.build.directory}/shippable/testreports</reportsDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
