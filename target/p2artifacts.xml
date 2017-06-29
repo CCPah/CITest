@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='CITest' version='1.0.0'>
     <properties size='5'>
-      <property name='artifact.size' value='10384'/>
-      <property name='download.size' value='10384'/>
+      <property name='artifact.size' value='10373'/>
+      <property name='download.size' value='10373'/>
       <property name='maven-groupId' value='CITest'/>
       <property name='maven-artifactId' value='CITest'/>
       <property name='maven-version' value='1.0.0'/>
