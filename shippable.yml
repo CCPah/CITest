@@ -12,4 +12,4 @@ build:
    - cd mvn-parent
    - mvn install
    
-   - cp -R ./CiTestTest/target/surefire-reports/* ./shippable/testresults/
+   - cp -R /root/src/github.com/CCPah/CITest/CiTestTest/target/surefire-reports/* ./shippable/testresults/
